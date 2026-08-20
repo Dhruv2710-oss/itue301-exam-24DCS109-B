@@ -1,0 +1,71 @@
+.appointment-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.appointment-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.label {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.appointment-meta {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+}
+
+.appointment-meta div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+.appointment-meta dt {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.appointment-meta dd {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.status-badge {
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.status-confirmed {
+  background: var(--green-bg);
+  color: var(--green);
+}
+
+.status-pending {
+  background: var(--amber-bg);
+  color: var(--amber);
+}
+
+.status-cancelled {
+  background: var(--red-bg);
+  color: var(--red);
+}
