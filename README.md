@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MedCare Plus — Hospital Appointment System
 
 ITUE301 Set A practical: React + Express.js + MongoDB (Mongoose).
@@ -39,3 +40,6 @@ The in-memory appointment and doctor APIs (Tasks 3–4 and booking) still work i
 | MONGO_URI  | MongoDB connection string from Atlas |
 
 Never commit `.env`. Use `.env.example` as the template.
+=======
+# itue301-exam-24DCS109-B
+>>>>>>> cad659b1e95f6cef6f062714bc985902b136597f
